@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Application</string>
+    <string name="app_name">Liga Premier</string>
+
+    <string name="setting">Setting</string>
+    <string name="resume">Resume</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">@android:string/ok</string>
+
+    <string name="successfully">Successful</string>
+    <string name="failure">Failure</string>
+    
 </resources>

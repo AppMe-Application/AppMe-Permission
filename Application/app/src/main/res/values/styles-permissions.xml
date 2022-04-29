@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Permission" parent="@style/AppTheme"/>
+
+    <style name="Permission.Theme" />
+
+    <style name="Permission.Theme.Activity">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Permission.Theme.Activity.Transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Permission.Theme.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Permission.Theme.Dialog.Wait">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@drawable/permission_shape_wait_background</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="Permission.Theme.Dialog.Transparent">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Permission.Widget" />
+
+    <style name="Permission.Widget.Progress" parent="@android:style/Widget.Holo.ProgressBar" />
+
+    <style name="Permission.Widget.Progress.Wait">
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+
+    <style name="Permission.WrapContent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="Permission.MatchParent">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+        <style name="Permission.WrapContent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="Permission.WrapContent.WidthMatchParent">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Permission.MatchParent">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Permission.Toolbar" parent="Permission.WrapContent.WidthMatchParent">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="Permission.Theme.Sample.Button" parent="Widget.AppCompat.Button"/>
+
+    <style name="Permission.Button" parent="Permission.WrapContent">
+        <item name="android:theme">@style/Permission.Theme.Sample.Button</item>
+        <item name="android:layout_margin">@dimen/dp_1</item>
+    </style>
+
+    <style name="Permission.Button.Weight">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Permission.Button.Weight.Horizontal">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Permission.Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_1</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+</resources>
+
